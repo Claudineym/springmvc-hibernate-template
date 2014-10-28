@@ -42,6 +42,8 @@ public class UserTests {
 		testUser.setUsername("new user 33");
 		testUser.setFirstname("john");
 		testUser.setLastname("bloggs");
+		testUser.setAge(26);
+		testUser.setEmail("john@jbloggs.com");
 		log.info("Created test user");
 	}
 
